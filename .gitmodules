@@ -22,3 +22,6 @@
 [submodule "jstl-demo"]
 	path = jstl-demo
 	url = https://github.com/noumanalisyed/jstl-demo.git
+[submodule "student-registration"]
+	path = student-registration
+	url = https://github.com/noumanalisyed/student-registration.git
