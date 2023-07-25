@@ -10,3 +10,6 @@
 [submodule "rational_no"]
 	path = rational_no
 	url = https://github.com/noumanalisyed/rational_no.git
+[submodule "basic-java"]
+	path = basic-java
+	url = https://github.com/noumanalisyed/basic-java.git
