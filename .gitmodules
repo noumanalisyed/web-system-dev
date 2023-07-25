@@ -4,3 +4,6 @@
 [submodule "arrays"]
 	path = arrays
 	url = https://github.com/noumanalisyed/arrays.git
+[submodule "matrices"]
+	path = matrices
+	url = https://github.com/noumanalisyed/matrices.git
