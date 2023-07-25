@@ -16,3 +16,6 @@
 [submodule "jsp-tagdemo"]
 	path = jsp-tagdemo
 	url = https://github.com/noumanalisyed/jsp-tagdemo.git
+[submodule "jsp-demo"]
+	path = jsp-demo
+	url = https://github.com/noumanalisyed/jsp-demo.git
