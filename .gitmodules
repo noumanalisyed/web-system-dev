@@ -1,0 +1,3 @@
+[submodule "jdbc-student-jdk17"]
+	path = jdbc-student-jdk17
+	url = https://github.com/noumanalisyed/jdbc-student-jdk17.git
