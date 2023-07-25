@@ -13,3 +13,6 @@
 [submodule "basic-java"]
 	path = basic-java
 	url = https://github.com/noumanalisyed/basic-java.git
+[submodule "jsp-tagdemo"]
+	path = jsp-tagdemo
+	url = https://github.com/noumanalisyed/jsp-tagdemo.git
