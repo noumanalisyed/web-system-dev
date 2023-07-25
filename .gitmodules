@@ -7,3 +7,6 @@
 [submodule "matrices"]
 	path = matrices
 	url = https://github.com/noumanalisyed/matrices.git
+[submodule "rational_no"]
+	path = rational_no
+	url = https://github.com/noumanalisyed/rational_no.git
