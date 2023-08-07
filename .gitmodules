@@ -1,0 +1,3 @@
+[submodule "student_registration_system"]
+	path = student_registration_system
+	url = https://github.com/noumanalisyed/student_registration_system.git
