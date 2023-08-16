@@ -1,0 +1,9 @@
+package org.example;
+
+public class SadFortuneService implements FortuneService{
+
+    @Override
+    public String getDailyFortune() {
+        return "SadFortuneService -- Today is your unlucky day!!!";
+    }
+}
