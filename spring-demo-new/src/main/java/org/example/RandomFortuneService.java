@@ -4,7 +4,15 @@ import java.util.Random;
 
 public class RandomFortuneService implements FortuneService{
 
-    String strMessages [] = {"A","B","C","D","E","F"};
+    String strMessages [] = {
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+    };
+
     private int getRandomIndex(){
         return new Random().nextInt(6);
     }

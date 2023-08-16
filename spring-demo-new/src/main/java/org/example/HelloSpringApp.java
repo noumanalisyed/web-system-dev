@@ -15,18 +15,18 @@ public class HelloSpringApp {
 
 		if(context != null) {
 			// retrieve bean from spring container
-			BaseballCoach theBaseballCoach = (BaseballCoach) context.getBean("myBaseBallCoach", Coach.class);
+			CricketCoach theCricketCoach = (CricketCoach) context.getBean("myCricketCoach", Coach.class);
 
 
 			// call methods on the bean
-			System.out.println(theBaseballCoach.getDailyWorkout());
-			System.out.println(theBaseballCoach.getInformation());
-			System.out.println(theBaseballCoach.getDailyFortune());
-		/*	System.out.println(theCricketCoach.getEmailAddress());
-			System.out.println(theCricketCoach.getTeam());*/
+			System.out.println(theCricketCoach.getDailyWorkout());
+			System.out.println(theCricketCoach.getInformation());
+			System.out.println(theCricketCoach.getDailyFortune());
+			System.out.println(theCricketCoach.getEmailAddress());
+			System.out.println(theCricketCoach.getTeam());
 
 			// retrieve bean from spring container
-			CricketCoach theCricketCoach = (CricketCoach) context.getBean("myCricketCoach", Coach.class);
+			/*CricketCoach theCricketCoach = (CricketCoach) context.getBean("myCricketCoach", Coach.class);
 
 			// call methods on the bean
 			System.out.println(theCricketCoach.getDailyWorkout());
@@ -34,7 +34,7 @@ public class HelloSpringApp {
 			System.out.println(theCricketCoach.getDailyFortune());
 			// let's call our new method for fortunes
 			//System.out.println(theCricketCoach.getDailyFortune());
-
+*/
 			// close the context
 		}
 		else {

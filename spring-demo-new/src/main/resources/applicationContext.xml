@@ -32,8 +32,11 @@
 	<bean id="myCricketCoach"
 		  class="org.example.CricketCoach">
 
+		<property name="fortuneService" ref="sadFortuneService"/>
 		<!-- set up constructor injection -->
-		<constructor-arg ref="randomFortuneService" />
+		<!--<constructor-arg ref="randomFortuneService" />-->
+		<property name="emailAddress" value="${emailAddress}"/>
+		<property name="team" value="${team}"/>
 	</bean>
  	<bean id="myBaseBallCoach"
  		class="org.example.BaseballCoach">
