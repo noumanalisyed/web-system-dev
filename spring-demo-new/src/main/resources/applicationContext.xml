@@ -23,6 +23,9 @@
 	<bean id="happyFortuneService"
 		  class="org.example.HappyFortuneService">
 	</bean>
+	<bean id="randomFortuneService"
+		  class="org.example.RandomFortuneService">
+	</bean>
 	<bean id="sadFortuneService"
 		  class="org.example.SadFortuneService">
 	</bean>
@@ -30,7 +33,7 @@
 		  class="org.example.CricketCoach">
 
 		<!-- set up constructor injection -->
-		<constructor-arg ref="sadFortuneService" />
+		<constructor-arg ref="randomFortuneService" />
 	</bean>
  	<bean id="myBaseBallCoach"
  		class="org.example.BaseballCoach">
