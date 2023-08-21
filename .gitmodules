@@ -4,3 +4,6 @@
 [submodule "spring-mvc-first-demo"]
 	path = spring-mvc-first-demo
 	url = https://github.com/noumanalisyed/spring-mvc-first-demo.git
+[submodule "spring-mvc-hibernate-demo"]
+	path = spring-mvc-hibernate-demo
+	url = https://github.com/noumanalisyed/spring-mvc-hibernate-demo.git

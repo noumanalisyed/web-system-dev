@@ -12,6 +12,7 @@
     <mapping directory="$PROJECT_DIR$/jstl-demo" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/matrices" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/rational_no" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/spring-mvc-first-demo" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/student-registration" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/student_regisrtation_sys" vcs="Git" />
   </component>
