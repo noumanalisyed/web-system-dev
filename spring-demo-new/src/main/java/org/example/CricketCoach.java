@@ -1,5 +1,7 @@
 package org.example;
 
+import java.io.IOException;
+
 public class CricketCoach implements Coach{
 
     private String emailAddress;
@@ -45,5 +47,12 @@ public class CricketCoach implements Coach{
 
     public void setTeam(String team) {
         this.team = team;
+    }
+
+    public void doMyStartupSteps(){
+        System.out.println("doMyStartupSteps -- function called ");
+    }
+    public void doMyDestroySteps(){
+            System.out.println("doMyDestroySteps -- function called ");
     }
 }

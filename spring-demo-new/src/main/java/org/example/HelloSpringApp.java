@@ -36,6 +36,7 @@ public class HelloSpringApp {
 			//System.out.println(theCricketCoach.getDailyFortune());
 */
 			// close the context
+			context.close();
 		}
 		else {
 			context.close();

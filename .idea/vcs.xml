@@ -2,6 +2,8 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ShopCartApp" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/StudentRegistration" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/arrays" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/basic-java" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/jdbc-student-jdk17" vcs="Git" />
@@ -10,5 +12,7 @@
     <mapping directory="$PROJECT_DIR$/jstl-demo" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/matrices" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/rational_no" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/student-registration" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/student_regisrtation_sys" vcs="Git" />
   </component>
 </project>

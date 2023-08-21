@@ -30,7 +30,9 @@
 		  class="org.example.SadFortuneService">
 	</bean>
 	<bean id="myCricketCoach"
-		  class="org.example.CricketCoach">
+		  class="org.example.CricketCoach"
+		  init-method="doMyStartupSteps"
+		  destroy-method="doMyDestroySteps">
 
 		<property name="fortuneService" ref="sadFortuneService"/>
 		<!-- set up constructor injection -->

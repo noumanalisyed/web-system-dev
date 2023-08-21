@@ -1,3 +1,6 @@
 [submodule "student_registration_system"]
 	path = student_registration_system
 	url = https://github.com/noumanalisyed/student_registration_system.git
+[submodule "spring-mvc-first-demo"]
+	path = spring-mvc-first-demo
+	url = https://github.com/noumanalisyed/spring-mvc-first-demo.git
